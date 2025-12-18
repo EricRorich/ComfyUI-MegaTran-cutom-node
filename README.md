@@ -1,4 +1,4 @@
-# Transform Node for ComfyUI
+# Mega Tran Transform Node for ComfyUI
 ![image alt](https://github.com/EricRorich/ComfyUI-MegaTran-cutom-node/blob/main/Mega_Tran.png?raw=true)
 ## Overview
 The `Transform` node is a custom node for ComfyUI that applies a series of transformations to an input image and mask. The transformations include scaling, rotation, and translation, all centered around a specified pivot point. The node ensures that the transformed image is properly accommodated within a canvas, which can be expanded if needed.
@@ -42,6 +42,7 @@ The `Transform` node is a custom node for ComfyUI that applies a series of trans
 
 4. **Visualizing the Pivot Point**:
    Enable the `show_pivot` option to display a red dot at the pivot point on the transformed image. This can help you verify the pivot point's position after transformations.
+
 
 
 
