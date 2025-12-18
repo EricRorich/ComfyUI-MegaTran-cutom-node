@@ -1,7 +1,7 @@
-# CS Transform Node for ComfyUI
+# Transform Node for ComfyUI
 ![image alt](https://github.com/EricRorich/ComfyUI-MegaTran-cutom-node/blob/main/Mega_Tran.png?raw=true)
 ## Overview
-The `CS Transform` node is a custom node for ComfyUI that applies a series of transformations to an input image and mask. The transformations include scaling, rotation, and translation, all centered around a specified pivot point. The node ensures that the transformed image is properly accommodated within a canvas, which can be expanded if needed.
+The `Transform` node is a custom node for ComfyUI that applies a series of transformations to an input image and mask. The transformations include scaling, rotation, and translation, all centered around a specified pivot point. The node ensures that the transformed image is properly accommodated within a canvas, which can be expanded if needed.
 
 ## Features
 - **Scaling**: Adjust the size of the image by a specified factor.
@@ -32,7 +32,7 @@ The `CS Transform` node is a custom node for ComfyUI that applies a series of tr
 ## Usage
 
 1. **Adding the Node**:
-   To add the `CS Transform` node to your ComfyUI pipeline, ensure you have placed the `transform_node.py` file in the appropriate directory within your ComfyUI installation.
+   To add the `Transform` node to your ComfyUI pipeline, ensure you have placed the `transform_node.py` file in the appropriate directory within your ComfyUI installation.
 
 2. **Configuring Inputs**:
    Configure the inputs as required. You can provide an image, mask, and canvas. Specify the transformation parameters including position, pivot point, rotation, and scale.
@@ -42,5 +42,6 @@ The `CS Transform` node is a custom node for ComfyUI that applies a series of tr
 
 4. **Visualizing the Pivot Point**:
    Enable the `show_pivot` option to display a red dot at the pivot point on the transformed image. This can help you verify the pivot point's position after transformations.
+
 
 
